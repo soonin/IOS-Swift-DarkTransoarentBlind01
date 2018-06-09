@@ -12,6 +12,8 @@
 		FA6F989720CC76900011F5DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6F989520CC76900011F5DD /* Main.storyboard */; };
 		FA6F989920CC76910011F5DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6F989820CC76910011F5DD /* Assets.xcassets */; };
 		FA6F989C20CC76910011F5DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6F989A20CC76910011F5DD /* LaunchScreen.storyboard */; };
+		FA6F98A520CC786A0011F5DD /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F98A420CC786A0011F5DD /* Extentions.swift */; };
+		FA6F98A720CC788F0011F5DD /* HandleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6F98A620CC788F0011F5DD /* HandleHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FA6F989820CC76910011F5DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA6F989B20CC76910011F5DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA6F989D20CC76910011F5DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6F98A420CC786A0011F5DD /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		FA6F98A620CC788F0011F5DD /* HandleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				FA6F989120CC76900011F5DD /* AppDelegate.swift */,
+				FA6F98A320CC78530011F5DD /* Helper */,
 				FA6F989320CC76900011F5DD /* ViewController.swift */,
 				FA6F989520CC76900011F5DD /* Main.storyboard */,
 				FA6F989820CC76910011F5DD /* Assets.xcassets */,
@@ -62,6 +67,15 @@
 				FA6F989D20CC76910011F5DD /* Info.plist */,
 			);
 			path = "IOS-Swift-DarkTransoarentBlind01";
+			sourceTree = "<group>";
+		};
+		FA6F98A320CC78530011F5DD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FA6F98A420CC786A0011F5DD /* Extentions.swift */,
+				FA6F98A620CC788F0011F5DD /* HandleHelper.swift */,
+			);
+			name = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA6F989420CC76900011F5DD /* ViewController.swift in Sources */,
+				FA6F98A720CC788F0011F5DD /* HandleHelper.swift in Sources */,
 				FA6F989220CC76900011F5DD /* AppDelegate.swift in Sources */,
+				FA6F98A520CC786A0011F5DD /* Extentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
